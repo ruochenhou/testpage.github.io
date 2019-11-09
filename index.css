@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: cadetblue;  
+}
+.card{
+    width: 400px;
+    background: cornsilk;
+    padding:40px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.title{
+    color:tomato;
+}
+.calculator{
+    text-align: center;
+}
+.submitBtn{
+    margin-left: auto;
+    position: relative;
+    bottom: -20px;
+    text-decoration: none;
+    color: darkslategray;
+    border: 3px solid;
+    padding: 8px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.submitBtn:active{
+    margin-left: auto;
+    position: relative;
+    bottom: -20px;
+    text-decoration: none;
+    color: darkslategray;
+    border: 3px solid;
+    padding: 10px 26px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.answer{
+    margin-left: auto;
+    position: relative;
+    bottom: -30px;
+}
+.textBox{
+    text-align: center;
+    border: 3px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+.textBox[type="text"]{
+    font-size:24px;
+}
